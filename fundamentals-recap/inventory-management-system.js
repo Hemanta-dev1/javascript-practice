@@ -67,3 +67,5 @@ function removeProduct(productName, quantity) {
 }
 
 console.log(addProduct({name: "FLOUR", quantity: 5}))
+
+console.log(removeProduct({name: "FLOUR", quantity: 5}))
