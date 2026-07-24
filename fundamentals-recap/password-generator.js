@@ -1,14 +1,14 @@
-function generatePassword(passLength){
-   let result = ""
-    const characters="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()";
+function generatePassword(passLength) {
+  let result = "";
+  const characters =
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()*";
 
-  for(let i = 0; i < passLength; i++){
-     const randomIndex = Math.floor(Math.random() * characters.length);
-        result += characters.charAt(randomIndex); 
+  for (let i = 0; i < passLength; i++) {
+    const randomIndex = Math.floor(Math.random() * characters.length);
+    result += characters.charAt(randomIndex);
   }
- return result;
+  return result;
+}
 
-};
-
-let password = generatePassword(8);
+let password = generatePassword(10);
 console.log(`Generated password: ${password}`);
