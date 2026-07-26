@@ -9,3 +9,15 @@ function diffArray(arr1, arr2) {
 
   return uniqueInArr1.concat(uniqueInArr2);
 }
+console.log(
+  diffArray(
+    ["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"],
+    ["diorite", "andesite", "grass", "dirt", "dead shrub"],
+  ),
+);
+console.log(
+  diffArray(
+    ["ram", "shyam", "hari", "raj"],
+    ["ram", "shyam", "hemanta", "raj"],
+  ),
+);
