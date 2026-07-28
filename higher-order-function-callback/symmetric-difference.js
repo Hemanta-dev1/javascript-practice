@@ -16,8 +16,5 @@ console.log(
   ),
 );
 console.log(
-  diffArray(
-    ["ram", "shyam", "hari", "raj"],
-    ["ram", "shyam", "hemanta", "raj"],
-  ),
+  diffArray(["ram", "hari", "hari", "raj"], ["ram", "shyam", "hemanta", "raj"]),
 );
