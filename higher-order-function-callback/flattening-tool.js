@@ -11,3 +11,5 @@ function steamrollArray(arr) {
 
   return result;
 }
+console.log(steamrollArray([[["a"]], [["b"]]]));
+console.log(steamrollArray([1, {}, [3, [[4]]]]));
